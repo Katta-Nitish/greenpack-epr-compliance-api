@@ -57,8 +57,8 @@ This service handles all three — with deterministic validation, LLM-powered na
 | Component | Choice | Reason |
 |---|---|---|
 | **Framework** | FastAPI | Async support, automatic OpenAPI docs, Pydantic integration |
-| **LLM (Summary)** | `deepseek-r1` via Ollama | Strong reasoning for structured compliance narratives; free, local, no API cost |
-| **LLM (RAG Q&A)** | `llama3:8b` via Ollama | Fast, instruction-following; handles strict "only answer from context" prompting well |
+| **LLM (Summary)** | `deepseek-r1:8b` via Ollama | Strong reasoning for structured compliance narratives; free, local, no API cost |
+| **LLM (RAG Q&A)** | `llama3.1:8b` via Ollama | Fast, instruction-following; handles strict "only answer from context" prompting well |
 | **Embeddings** | `nomic-embed-text` via Ollama | High-quality open embeddings, runs locally, no external calls |
 | **Vector Store** | FAISS (via LangChain) | Lightweight, no server needed, zero-infra for a screening task; trivially swappable |
 | **Storage** | In-memory Python dict | Sufficient for this scope; no overhead, easy to swap to SQLite/Postgres later |
@@ -91,8 +91,8 @@ greenpack-epr/
 ### 1. Pull required models
 
 ```bash
-ollama pull deepseek-r1
-ollama pull llama3:8b
+ollama pull deepseek-r1:8b
+ollama pull llama3.1:8b
 ollama pull nomic-embed-text
 ```
 
