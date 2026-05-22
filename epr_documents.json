@@ -1,0 +1,20 @@
+[
+  {
+    "id": "doc1",
+    "title": "CPCB Notification 2022",
+    "section": "Section 4.1",
+    "content": "The Extended Producer Responsibility (EPR) framework mandates that producers of plastic packaging must recycle at least 50% of their rigid plastic waste by the year 2026."
+  },
+  {
+    "id": "doc2",
+    "title": "GreenPack Compliance Handbook",
+    "section": "Chapter 2",
+    "content": "All monthly plastic declarations must be submitted by the 15th of the following month. Failure to report accurate quantities results in an initial penalty of 5000 INR per day."
+  },
+  {
+    "id": "doc3",
+    "title": "Plastic Waste Management Rules",
+    "section": "Schedule II",
+    "content": "Multilayer plastic is heavily regulated. Producers must ensure that 100% of procured multilayer plastic is sent to end-of-life disposal facilities, such as cement kilns, if it cannot be recycled."
+  }
+]
